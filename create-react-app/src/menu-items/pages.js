@@ -112,8 +112,6 @@ const pages = {
           url: '/infrastructures/threeten',
           target: true
         }
-
-        
       ]
     }
   ]
