@@ -1,14 +1,13 @@
 // material-ui
-import { Grid } from '@mui/material';
 
 // project imports
 import MainCard from 'ui-component/cards/MainCard';
-import { gridSpacing } from 'store/constant';
 import myImage from '../../assets/images/med.jpg';
+import { Typography } from '@mui/material';
 
 const Health = () => (
   <MainCard title="Здравоохранение">
-    <Grid container spacing={gridSpacing}>
+    <Typography variant="body2">
       <img src={myImage} alt="description" width="700" height="500" />
       <h1>Несанкционированный доступ к медицинской информации</h1>
       <p>
@@ -38,7 +37,7 @@ const Health = () => (
         Взлом может привести к выходу системы из строя или ее отключению. Это может привести к нарушению работы медицинских учреждений,
         временной потере доступа к медицинской информации и задержке в предоставлении медицинской помощи пациентам.
       </p>
-    </Grid>
+    </Typography>
   </MainCard>
 );
 
