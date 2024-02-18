@@ -6,7 +6,7 @@ import MinimalLayout from 'layout/MinimalLayout';
 
 // login option 3 routing
 // const AuthLogin3 = Loadable(lazy(() => import('views/pages/authentication/authentication3/Login3')));
-const Color = Loadable(lazy(() => import('views/utilities/Color')));
+const Military = Loadable(lazy(() => import('views/utilities/Military')));
 // ==============================|| AUTHENTICATION ROUTING ||============================== //
 
 const AuthenticationRoutes = {
@@ -14,8 +14,8 @@ const AuthenticationRoutes = {
   element: <MinimalLayout />,
   children: [
     {
-      path: '/infrastructures/first',
-      element: <Color />
+      path: '/infrastructures/military',
+      element: <Military />
     }
   ]
 };

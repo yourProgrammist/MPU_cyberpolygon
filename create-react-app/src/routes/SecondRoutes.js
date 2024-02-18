@@ -6,7 +6,7 @@ import MinimalLayout from 'layout/MinimalLayout';
 
 // login option 3 routing
 // const AuthLogin3 = Loadable(lazy(() => import('views/pages/authentication/authentication3/Login3')));
-const Second = Loadable(lazy(() => import('views/utilities/second')));
+const Second = Loadable(lazy(() => import('views/utilities/health')));
 // ==============================|| AUTHENTICATION ROUTING ||============================== //
 
 const AuthenticationRoutes2 = {
@@ -14,7 +14,7 @@ const AuthenticationRoutes2 = {
   element: <MinimalLayout />,
   children: [
     {
-      path: '/infrastructures/second',
+      path: '/infrastructures/health',
       element: <Second />
     }
   ]

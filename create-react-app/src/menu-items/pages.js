@@ -10,8 +10,8 @@ const icons = {
 
 const pages = {
   id: 'pages',
-  title: 'Pages',
-  caption: 'Pages Caption',
+  title: '',
+  caption: '',
   type: 'group',
   children: [
     {
@@ -25,14 +25,14 @@ const pages = {
           id: 'register3',
           title: 'Оборонная промышленность',
           type: 'item',
-          url: '/infrastructures/first',
+          url: '/infrastructures/military',
           target: true
         },
         {
           id: 'register4',
           title: 'Здравоохранение',
           type: 'item',
-          url: '/infrastructures/second',
+          url: '/infrastructures/health',
           target: true
         },
         {
