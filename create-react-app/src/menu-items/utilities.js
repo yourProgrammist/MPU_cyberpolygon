@@ -13,7 +13,7 @@ const icons = {
 
 const utilities = {
   id: 'utilities',
-  title: 'Machines',
+  title: 'Misc',
   type: 'group',
   children: [
     {
@@ -23,15 +23,15 @@ const utilities = {
       url: '/utils/util-typography',
       icon: icons.IconTypography,
       breadcrumbs: false
-    },
-    {
-      id: 'util-color',
-      title: 'SIQULE FORM',
-      type: 'item',
-      url: '/utils/util-color',
-      icon: icons.IconPalette,
-      breadcrumbs: false
     }
+    //    {
+    //      id: 'util-color',
+    //      title: 'SIQULE FORM',
+    //      type: 'item',
+    //      url: '/utils/util-color',
+    //      icon: icons.IconPalette,
+    //      breadcrumbs: false
+    //    }
   ]
 };
 

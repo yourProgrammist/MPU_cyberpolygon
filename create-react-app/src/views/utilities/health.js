@@ -1,5 +1,3 @@
-// material-ui
-
 // project imports
 import MainCard from 'ui-component/cards/MainCard';
 import myImage from '../../assets/images/med.jpg';

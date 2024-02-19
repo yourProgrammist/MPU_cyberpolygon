@@ -22,95 +22,95 @@ const pages = {
 
       children: [
         {
-          id: 'register3',
+          id: 'military',
           title: 'Оборонная промышленность',
           type: 'item',
           url: '/infrastructures/military',
-          target: true
+          target: false
         },
         {
-          id: 'register4',
+          id: 'health',
           title: 'Здравоохранение',
           type: 'item',
           url: '/infrastructures/health',
-          target: true
+          target: false
         },
         {
-          id: 'register5',
+          id: 'fuel',
           title: 'Топливная промышленность',
           type: 'item',
-          url: '/infrastructures/third',
-          target: true
+          url: '/infrastructures/fuel',
+          target: false
         },
         {
-          id: 'register6',
+          id: 'mining',
           title: 'Горнодобывающая промышленность',
           type: 'item',
-          url: '/infrastructures/fouth',
-          target: true
+          url: '/infrastructures/mining',
+          target: false
         },
         {
-          id: 'register7',
+          id: 'nuclear',
           title: 'Атомная промышленность',
           type: 'item',
-          url: '/infrastructures/fifth',
-          target: true
+          url: '/infrastructures/nuclear',
+          target: false
         },
         {
-          id: 'register8',
+          id: 'aerospace',
           title: 'Ракетно-космическая промышленность',
           type: 'item',
-          url: '/infrastructures/sixth',
-          target: true
+          url: '/infrastructures/aerospace',
+          target: false
         },
         {
-          id: 'register9',
+          id: 'metallurgy',
           title: 'Металлургическая промышленность',
           type: 'item',
-          url: '/infrastructures/seventh',
-          target: true
+          url: '/infrastructures/metallurgy',
+          target: false
         },
         {
-          id: 'register10',
+          id: 'energy',
           title: 'Энергетика',
           type: 'item',
-          url: '/infrastructures/eighth',
-          target: true
+          url: '/infrastructures/energy',
+          target: false
         },
         {
-          id: 'register11',
+          id: 'transport',
           title: 'Транспорт',
           type: 'item',
-          url: '/infrastructures/nineth',
-          target: true
+          url: '/infrastructures/transport',
+          target: false
         },
         {
-          id: 'register12',
+          id: 'banking',
           title: 'Кредитно-финансовая сфера',
           type: 'item',
-          url: '/infrastructures/tenth',
-          target: true
+          url: '/infrastructures/banking',
+          target: false
         },
         {
-          id: 'register13',
+          id: 'communication',
           title: 'Связь',
           type: 'item',
-          url: '/infrastructures/eleven',
-          target: true
+          url: '/infrastructures/communication',
+          target: false
         },
         {
-          id: 'register14',
+          id: 'government',
           title: 'Государственные органы',
           type: 'item',
-          url: '/infrastructures/twelve',
-          target: true
+          url: '/infrastructures/government',
+          target: false
         },
         {
-          id: 'register15',
+          id: 'chemistry',
           title: 'Химическая промышленность',
           type: 'item',
-          url: '/infrastructures/threeten',
-          target: true
+          url: '/infrastructures/chemistry',
+          target: false
         }
       ]
     }

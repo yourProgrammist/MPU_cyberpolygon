@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 const Military = () => (
   <MainCard title="Оборонная промышленность">
     <Typography variant="body2">
-      <img src={myImage} alt="description" width="500" height="500" />
+      <img src={myImage} alt="description" width="700" height="500" />
       <h1>Утечка конфиденциальной информации</h1>
       <p>
         Взлом может привести к несанкционированному доступу к секретной информации, такой как секреты производства, конструкторские
