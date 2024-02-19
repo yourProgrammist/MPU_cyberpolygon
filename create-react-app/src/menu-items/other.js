@@ -17,7 +17,7 @@ const other = {
       url: '/sample-page',
       icon: icons.IconPlayerEject,
       breadcrumbs: false
-    },
+    }
   ]
 };
 

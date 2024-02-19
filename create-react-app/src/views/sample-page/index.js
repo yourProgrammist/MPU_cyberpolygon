@@ -10,7 +10,7 @@ import MainCard from 'ui-component/cards/MainCard';
 const SamplePage = () => (
   <MainCard title="Sample Card">
     <Typography variant="body2">
-    <Button component={Link} to="/free" variant="contained" color="primary">
+      <Button component={Link} to="/free" variant="contained" color="primary">
         Газовая промышленность
       </Button>
     </Typography>
