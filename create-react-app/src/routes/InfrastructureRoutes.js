@@ -17,6 +17,7 @@ const Metallurgy = Loadable(lazy(() => import('views/utilities/metallurgy')));
 const Mining = Loadable(lazy(() => import('views/utilities/mining')));
 const Nuclear = Loadable(lazy(() => import('views/utilities/nuclear')));
 const Transport = Loadable(lazy(() => import('views/utilities/transport')));
+const Markdown = Loadable(lazy(() => import('views/utilities/markdown')));
 // ==============================|| AUTHENTICATION ROUTING ||============================== //
 
 const InfrastructureRoutes = {
@@ -66,6 +67,10 @@ const InfrastructureRoutes = {
     {
       path: '/infrastructures/transport',
       element: <Transport />
+    },
+    {
+      path: '/infrastructures/markdown',
+      element: <Markdown />
     }
   ]
 };

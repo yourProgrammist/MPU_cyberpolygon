@@ -111,6 +111,13 @@ const pages = {
           type: 'item',
           url: '/infrastructures/chemistry',
           target: false
+        },
+        {
+          id: 'markdown',
+          title: 'Markdown',
+          type: 'item',
+          url: 'infrastructures/markdown',
+          target: false
         }
       ]
     }
