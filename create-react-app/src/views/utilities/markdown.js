@@ -1,13 +1,3 @@
-// assets
-//import { IconKey } from '@tabler/icons';
-
-// constant
-//const icons = {
-//  IconKey
-//};
-
-// ==============================|| EXTRA PAGES MENU ITEMS ||============================== //
-
 import React, { useState } from 'react';
 import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
